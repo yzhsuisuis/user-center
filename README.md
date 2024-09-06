@@ -1,6 +1,8 @@
 # 用户中心前端
 
-This project is initialized with [鱼皮用户中心](https://pro.ant.design). Follow is the quick guide for how to use.
+最大的坑点在于: 
+1.Docker部署上线时,从github上拉取的前端代码,没有dist目录,如果不手动上传构建好的dist文件夹,DockerFile是找不到的,一定要记住这一点!!!
+2. dockerFile 的FROM nginx 记得带上nginx版本 如 : FROM nginx:1.18
 
 ## Environment Prepare
 
