@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:1.18
 
 WORKDIR /usr/share/nginx/html/
 USER root
